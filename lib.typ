@@ -51,7 +51,7 @@
   #smallcaps[
     *#author.name* •
     #author.street •
-    #author.zip #author.city
+    #author.postal-code #author.city
   ]
 
   #v(1em)
@@ -60,7 +60,7 @@
   #set text(size: 1.2em)
   #recipient.name \
   #recipient.street \
-  #recipient.zip
+  #recipient.postal-code
   #recipient.city
 ]
 

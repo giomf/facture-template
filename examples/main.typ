@@ -24,7 +24,7 @@
   (
     name: "Max Musterfrau",
     street: "Straße der Privatsphäre und Stille 1",
-    zip: "54321",
+    postal-code: "54321",
     city: "Potsdam",
     tax-number: "12345/67890",
     // optional signature, can be omitted
@@ -34,7 +34,7 @@
   (
     name: "Erika Mustermann",
     street: "Musterallee",
-    zip: "12345",
+    postal-code: "12345",
     city: "Musterstadt",
   ),
   // Bank account
