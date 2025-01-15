@@ -129,7 +129,7 @@
     } else { ([], [], [], []) },
     [
       #set align(end)
-      *Gesamt:*
+      *Gesamtbetrag:*
     ],
     [#format-currency(if small-business {total} else {total + vat_costs})€],
     table.hline(start: 2),
@@ -216,7 +216,7 @@
   // A plain string that will be evaluated as markup and displayed below the invoice items.
   // Possible variabes:
   //   - due-date
-  invoice-text: "Vielen Dank für die Zusammenarbeit. Bitte überweisen Sie die Rechnungssumme
+  invoice-text: "Vielen Dank für die Zusammenarbeit. Bitte überweisen Sie den Gesamtbetrag
     bis zum *#due-date* auf mein unten genanntes Konto unter Nennung der Rechnungsnummer.",
   // VAT
   vat: 0.19,
