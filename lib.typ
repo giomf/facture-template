@@ -58,6 +58,9 @@
 
   #set par(leading: 0.40em)
   #set text(size: 1.2em)
+    #if recipient.organisation != none [
+    *#recipient.organisation*\
+  ]
   #recipient.name \
   #recipient.street \
   #recipient.postal-code
